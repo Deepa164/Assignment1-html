@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB DEVELOPMENT WORKSHOP 2026</title>
+</head>
+<body>
+
+    <h1>WEB DEVELOPMENT WORKSHOP 2026</h1>
+    <p>
+        This workshop is organized to provide hands-on training in web development 
+        using HTML, CSS and JavaScript. It helps students gain practical knowledge 
+        and improve their skills in designing and building basic websites.
+    </p>
+
+    <h2>Event Information</h2>
+    <p><strong>Event Name:</strong> Tech Workshop 2026</p>
+    <p><strong>Date:</strong> 25th February 2026</p>
+    <p><strong>Time:</strong> 10:00 AM</p>
+    <p><strong>Venue:</strong> College Seminar Hall</p>
+
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label>Name:</label><br>
+            <input type="text" name="name"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email"><br><br>
+
+            <label>Phone Number:</label><br>
+            <input type="tel" name="phone"><br><br>
+
+            <label>Date of Birth:</label><br>
+            <input type="date" name="dob"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Male
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Event Selection</legend>
+
+            <label>Event:</label><br>
+            <select name="event">
+                <option>Web Development Workshop</option>
+            </select><br><br>
+
+            <label>Mode of Participation:</label><br>
+            <input type="radio" name="mode"> Online
+            <input type="radio" name="mode"> Offline
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Declaration</legend>
+            <input type="checkbox"> I confirm that the above details are correct.
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <h2>Registered Participants</h2>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Event</th>
+            <th>Mode</th>
+        </tr>
+        <tr>
+            <td>Deepa.J</td>
+            <td>deepalakshmij781@gmail.com</td>
+            <td>6380356565</td>
+            <td>Web Development Workshop</td>
+            <td>Online</td>
+        </tr>
+        <tr>
+            <td>Akshaya</td>
+            <td>Akshaya07@gmail.com</td>
+            <td>7397675013</td>
+            <td>Web Development Workshop</td>
+            <td>Online</td>
+        </tr>
+    </table>
+
+    <h2>Contact Information</h2>
+    <p>Contact Email: deepalakshmij781@gmail.com</p>
+    <p>Help Desk Number: +91 6380356565</p>
+    <p>Support Timings: 9:00 AM – 4:30 PM (Working Days Only)</p>
+    <p>© 2026 Department of Computer Applications, MMES Women's Arts & Science College. All Rights Reserved.</p>
+
+</body>
+</html>
